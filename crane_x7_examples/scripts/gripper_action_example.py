@@ -53,7 +53,7 @@ def main():
 
     # Open grippers(45degrees)
     print "Open Gripper."
-    gripper = 90.0
+    gripper = 45.0
     gc.command(math.radians(gripper),1.0)
     result = gc.wait(2.0)
     print result
